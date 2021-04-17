@@ -180,6 +180,24 @@ function multiply(num1, num2){
   
 // 🦁💪 Stretch: If you haven't already, convert your array method callbacks into arrow functions - make sure you comment out this section before you submit your work 🦁💪
  
+/*
+const add = (num1, num2)=>{
+  let sum = num1 + num2;
+  return sum
+}
+console.log(add(2, 2)); */
+
+/*
+const multiply = (num1, num2)=>{
+  let product = num1 * num2;
+  return product
+}
+console.log(multiply(2, 2));
+*/
+
+/*
+const greeting = (fName, lName) => (`Hello ${fName} ${lName}, nice to meet you!`);
+*/
 
 
 // 🐴🐴🐴 Topic 3: Prototypes 🐴🐴🐴 //
