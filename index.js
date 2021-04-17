@@ -28,6 +28,13 @@ myFunction();
     
 For example, `summation(4)` should return 10 because 1+2+3+4 is 10. Note, you may use a for loop for this function if you wish */
 
+/*=======================================================
+What's happening below: The summation function is set to accept a number as a parameter.
+For loop will continue to loop until the loop reaches 4. While looping through each number under or equal to four the next number
+in the sequence will be added to the previous. The result of the computation will be saved in the sum variable and that variable will be returned 
+once the function is complete.
+=========================================================*/
+
 function summation(num) {
  let sum = 0;
  for(let i = 0; i <= num; i++){
@@ -173,8 +180,6 @@ function multiply(num1, num2){
   
 // 🦁💪 Stretch: If you haven't already, convert your array method callbacks into arrow functions - make sure you comment out this section before you submit your work 🦁💪
  
-
-
 
 
 // 🐴🐴🐴 Topic 3: Prototypes 🐴🐴🐴 //
